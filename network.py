@@ -53,7 +53,7 @@ class BaseNetwork(nn.Module):
 
 
 # ----------------------------------------------------------------------------------------------------------------------
-#                                              SegGenerator-related classes
+#                                              SegGenerator-related class
 # ----------------------------------------------------------------------------------------------------------------------
 class SegGenerator(BaseNetwork):
     def __init__(self, opt, input_nc, output_nc=13, norm_layer=nn.InstanceNorm2d):

@@ -18,7 +18,7 @@
   - [Usage](#usage)
   - [Citation](#citation)
 
-## General info
+## General infos
 
 This project is a part of a crework community project. While buying clothes online, it is difficult for a customer to select a desirable outfit in the first attempt because they can’t try on clothes. This project aims to solve this problem.
 
