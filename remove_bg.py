@@ -50,7 +50,7 @@ class preprcessInput:
         return np.asarray(background.convert('RGB'))
 
 
-# USAGE OF THE CLASS
+# USAGE OF THE CLAS
 preprocess = preprcessInput()
 for images in os.listdir('/content/inputs/test/image'):
     print(images)
