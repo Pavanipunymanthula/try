@@ -6,7 +6,7 @@ from collections import OrderedDict
 import torch
 import torch.nn.functional as F
 import torchvision.transforms as transforms
-
+#main description
 from networks.u2net import U2NET
 device = 'cuda'
 
