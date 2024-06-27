@@ -34,7 +34,7 @@ with open('/content/inputs/test_pairs.txt', 'w') as file:
     for model, cloth in pairs:
         file.write(f"{model} {cloth}")
 
-# making predictions
+# making the  predictions
 os.system(
     "python /content/clothes-virtual-try-on/test.py --name output --dataset_dir /content/inputs --checkpoint_dir /content/clothes-virtual-try-on/checkpoints --save_dir /content/")
 os.system("rm -rf /content/inputs")
